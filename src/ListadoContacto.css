@@ -1,0 +1,55 @@
+header{
+    background-color: #001B5F;
+    box-shadow: 1px 18px 27px 5px rgba(0,0,0,0.61);
+}
+.cuerpo{
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    #3BAF2A 0%, #001B5F 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.listado{
+    box-shadow: 1px 18px 27px 5px rgba(0,0,0,0.61);
+    margin-left: 1rem;
+    width:98rem;
+}
+tbody{
+    background-color: #fff;
+    color: #001B5F;
+}
+.buscar{
+    background: transparent;
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+    width: 78rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #FFF;
+}
+.buscar:focus{
+    outline: none;
+}
+.card{
+    margin-top:  5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.btnbuscar{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+thead{
+    background-color: #001B5F;
+    color:#fff;
+}
+.edit{
+    margin-right: 4px;
+}
+.agregar{
+    margin-left: 88.5rem;
+    margin-top: 3rem;
+}

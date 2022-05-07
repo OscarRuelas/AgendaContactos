@@ -1,0 +1,104 @@
+body {
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #3BAF2A 0%, #001B5F 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.titulo {
+  color: #001B5F;
+}
+
+.registro {
+  margin-bottom: 5rem;
+  padding: 2rem;
+  color: #001B5F;
+  width: 50rem;
+  box-shadow: 1px 18px 27px 5px rgba(0, 0, 0, 0.61);
+  margin-left: 20rem;
+}
+
+.form-floating>.form-control {
+  color: #001B5F;
+  border-color: #001B5F;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cancelar {
+  margin-right: 2rem;
+}
+
+.registrar {
+  outline: none;
+  border-radius: 1rem;
+  border-color: #001B5F;
+  color: #001B5F;
+  background-color: transparent;
+  width: 8rem;
+}
+
+.registrar:hover {
+  background-color: #001B5F;
+  border-color: none;
+  color: #fff;
+}
+
+.cambios {
+  margin-left: 1rem;
+  width: 10rem;
+}
+
+.cambios:invalid {
+  display: none;
+}
+
+.nombre:invalid:required {
+  border: 2px dashed red;
+}
+
+.app:invalid:required {
+  border: 2px dashed red;
+}
+
+.calle:invalid:required {
+  border: 2px dashed red;
+}
+
+.num_ext:invalid:required {
+  border: 2px dashed red;
+}
+
+.colonia:invalid:required {
+  border: 2px dashed red;
+}
+
+.cp:invalid:required {
+  border: 2px dashed red;
+}
+
+.estado:invalid:required {
+  border: 2px dashed red;
+}
+
+.pais:invalid:required {
+  border: 2px dashed red;
+}
+
+.municipio:invalid:required {
+  border: 2px dashed red;
+}
+
+.telefono:invalid:required {
+  border: 2px dashed red;
+}
+
+.validarNombre {
+  color: red;
+  margin-left: 1rem;
+}
